@@ -2,10 +2,12 @@ body {
   background-color: #272761;
   text-align: center;
   color: #fdfdfd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
   margin: 50px 0;
+  font-size: 3rem;
 }
 
 main {
@@ -23,7 +25,6 @@ main {
     padding: 10px;
     gap: 7px;
     font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Disabled button highlight */
@@ -40,8 +41,8 @@ button:focus {
 #display{
   display: grid;
   grid-area: display;
-  width: 350px;
-  font-size: 3rem;
+  width: 320px;
+  font-size: 30px;
   overflow: hidden;
 }
 #history, #input {
@@ -53,7 +54,7 @@ button:focus {
   text-overflow: clip;
 }
 #history{
-  font-size: 2rem;
+  font-size: 20px;
 }
 
 .symbol {
@@ -111,7 +112,7 @@ button:focus {
   grid-area: decimal
 }
 
-/* Ordering grid for operators */
+/* Ordering grid for operations */
 .operator,
 #back,
 #equals {
